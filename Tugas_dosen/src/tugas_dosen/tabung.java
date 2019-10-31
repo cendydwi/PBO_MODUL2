@@ -1,5 +1,4 @@
 package tugas_dosen;
-import javax.swing.*;
 import java.awt.event.*;
 
 public class tabung extends frame{
@@ -44,6 +43,6 @@ public class tabung extends frame{
         frame.setLayout(null);
         frame.setSize(300, 500);
         frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setDefaultCloseOperation(frame.DISPOSE_ON_CLOSE);
     }
 }

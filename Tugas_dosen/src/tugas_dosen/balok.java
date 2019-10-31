@@ -1,6 +1,5 @@
 package tugas_dosen;
 import java.awt.event.*;
-import javax.swing.*;
 
 class balok extends frame{
     public balok(){
@@ -50,7 +49,7 @@ class balok extends frame{
         frame.setLayout(null);
         frame.setSize(300, 500);
         frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setDefaultCloseOperation(frame.DISPOSE_ON_CLOSE);
     }
     
 }

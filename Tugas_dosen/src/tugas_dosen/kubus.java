@@ -1,8 +1,5 @@
 package tugas_dosen;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 class kubus extends frame{
     public kubus() {
@@ -37,6 +34,6 @@ class kubus extends frame{
         frame.setLayout(null);
         frame.setSize(300, 500);
         frame.setVisible(true);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setDefaultCloseOperation(frame.DISPOSE_ON_CLOSE);
     }    
 }
